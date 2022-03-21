@@ -1,0 +1,4 @@
+- id: kics-scan
+  name: Kics Scan
+  language: docker_image
+  entry: -v $PWD:/tmp checkmarx/kics scan -p /tmp 
